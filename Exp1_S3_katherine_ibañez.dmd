@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3_katherine_ibañez" id="9C954FEB-320F-1B63-D940-0EB31E1443B8" version="3.5">
-<createdBy>Katherine</createdBy>
-<createdTime>2025-09-01 18:00:25 UTC</createdTime>
-<ownerDesignName>Exp1_S3_katherine_ibañez</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>9C954FEB-320F-1B63-D940-0EB31E1443B8</designId>
-</OSDM_Design>
