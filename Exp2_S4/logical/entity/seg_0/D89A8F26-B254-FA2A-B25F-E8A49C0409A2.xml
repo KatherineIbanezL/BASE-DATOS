@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D89A8F26-B254-FA2A-B25F-E8A49C0409A2" name="CHILENO">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:23:59 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="FBB400D5-4247-DD5C-D5E1-9F4285E3709E">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 23:14:01 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="012AAB5A-4AC3-9629-67E3-610889FD84C2">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 00:55:43 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9D9BF94-4DC1-EEFB-00FD-9E56D32387DB" name="CHILENO PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 23:15:21 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

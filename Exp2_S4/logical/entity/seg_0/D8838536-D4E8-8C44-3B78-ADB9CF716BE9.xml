@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8838536-D4E8-8C44-3B78-ADB9CF716BE9" name="POSTULANTE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:13:03 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postulante" id="AF111D40-B676-A3A9-D2C4-DAA63721D2B4">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:25:37 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="B83E0AF6-A52B-445F-3653-C439DC16E1CC">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:25:53 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="B01CBEFC-8654-2323-4F54-AFF24E68B9BD">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:27:25 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_chile" id="7E9950A3-F7B4-26AA-6D42-E53E6D1C18E6">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 22:41:28 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="C1964D9D-A394-8B21-8D1E-D4A3DB548678">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:27:58 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="78BAACA2-73F0-D9B3-98C5-61D28A8BB6D6">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 22:35:48 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac" id="9A04D97A-F93D-39FA-D0E7-27669131DE85">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 22:41:08 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sitio_web" id="02017B28-A8EA-32C5-B16F-15B276297700">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 22:43:16 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="47DDAC01-5CA8-FDCD-7673-8DFCCD745C75">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 01:13:15 UTC</createdTime>
+<generatorID>CC689037-5CBA-7859-45C0-3CD8859EDC62</generatorID>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<referedAttribute>D73BC00E-6630-EB61-6105-C5956386E860</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="849AF7E9-BEB4-4B31-8F00-96BDBD4529F8">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 01:31:58 UTC</createdTime>
+<generatorID>C81A6094-31A9-DB1E-C29B-A418F4CDBF1C</generatorID>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<referedAttribute>9F70F55F-AD9A-E470-AE43-AF42A3742B96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="219B7322-5A44-F541-D950-B56963E9829F">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 21:14:46 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="F0D0F5F6-AD21-A523-6E0B-11A265EA06A0">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 21:14:57 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EA4DA58-609C-173E-4B5C-BA94A5F5B546" name="POSTULANTE PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-07 21:25:49 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF111D40-B676-A3A9-D2C4-DAA63721D2B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

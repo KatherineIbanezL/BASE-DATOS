@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E2572F9-6961-5CB9-E134-68AE08E26366" name="POSTULACION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 03:25:55 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postulacion" id="89025772-9124-0771-21B8-C8292D208DAF">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 03:26:09 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pretension_renta" id="364C2AA3-B05E-5BE7-AD0B-6BA26C0826A9">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 21:25:26 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="0963EDB2-55BA-9F20-EA72-6BD3016CCBE6">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 21:36:18 UTC</createdTime>
+<generatorID>A956B004-45FF-604A-4A56-9C0CB472396D</generatorID>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<referedAttribute>5A58482A-381A-B3AE-189D-0F7E15D8C090</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_postulante" id="079BDD65-9B95-A056-5A5C-67197BAE3AF5">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 21:54:06 UTC</createdTime>
+<generatorID>A0CAE8DB-AD7C-A2C3-D315-0DEB0522A150</generatorID>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<referedAttribute>AF111D40-B676-A3A9-D2C4-DAA63721D2B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="149D41C8-05D4-67D9-1239-7112820DCD67" name="POSTULACION PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-09-08 03:26:24 UTC</createdTime>
+<ownerDesignName>formativas5</ownerDesignName>
+<engineerTo>
+<item key="62C4222E-1BD5-E93F-1563-1E899BCE2A3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89025772-9124-0771-21B8-C8292D208DAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
