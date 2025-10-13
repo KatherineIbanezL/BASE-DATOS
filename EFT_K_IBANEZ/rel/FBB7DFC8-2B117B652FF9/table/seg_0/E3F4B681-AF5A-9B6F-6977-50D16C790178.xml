@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3F4B681-AF5A-9B6F-6977-50D16C790178" name="TECNICO_MANTENCION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>5ED37766-F33A-8294-0DAC-514D6DCB4AA3</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="37298504-DB4C-478F-E156-EEAFF874CBCD">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>E87CE5E4-181B-C515-A280-7F2871F0AB6B</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8D668B1-1EC6-4F65-456B-005178ACC66F" referredColumn="6D3C57D7-261E-4217-5883-0974DD0DCAA8"/>
+</associations>
+</Column>
+<Column name="especialidad" id="CE08B31E-5A67-0B4B-DE90-FF967A2CEA11">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>509F869F-D325-064D-36E3-A629BBD6F2B0</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo_resp" id="9B69D6AE-E441-5F86-4E57-F6D45FBD8464">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>C1ECA115-0D08-3064-DBBA-AA3315031A37</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_cert" id="341E26F6-207C-2E3B-DCFD-A01EA695F270">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>9F62991D-6248-8F29-E0D9-53DACF7DC615</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE21C762-5616-5D06-FA2C-89B8576C036B" referredColumn="9C4F62D8-81C5-F502-2D31-FF5ECB5892DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DD6D598-EFDB-4D8E-1237-E42B8897EAC4" name="TECNICO_MANTENCION_PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>6303DAAC-B049-81BD-E5CF-27A7944924B1</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37298504-DB4C-478F-E156-EEAFF874CBCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E60666B-4B96-E83A-986E-5BF6FC5D4452" name="TEC_MANT_EMPLEADO_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>247C3317-4A5E-A06C-68D4-2826F9AA8438</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37298504-DB4C-478F-E156-EEAFF874CBCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49C6D4BF-F0C2-2B70-ACE2-A2AA6C5E677A" name="TEC_MANT_CERTIFICACION_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>45058492-258A-B7C8-B00A-C526F1AC8809</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341E26F6-207C-2E3B-DCFD-A01EA695F270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

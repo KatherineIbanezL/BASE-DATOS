@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1236F4C-7EE5-2611-FA34-995A3FA6F66D" name="JEFE_TURNO">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 13:57:32 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C909B200-532F-96E7-EE06-44F2278C0866</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="area_respons" id="7A5C06DC-01C5-6A86-6C74-B5E52686DF24">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:35:40 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_operarios" id="7818FDB1-4F0A-2D45-C47A-17CF2A7BC189">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:41:38 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

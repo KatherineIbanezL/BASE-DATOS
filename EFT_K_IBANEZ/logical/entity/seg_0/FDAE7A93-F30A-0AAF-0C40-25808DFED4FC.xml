@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDAE7A93-F30A-0AAF-0C40-25808DFED4FC" name="MAQUINA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:02:14 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_maquina" id="C3398BA0-5308-48FD-B3B6-DC20638F3300">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:14:45 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7259B3A8-5E64-D55C-E4E5-CFC1A71C23CA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:15:17 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="0B93AD6B-C5B5-0EF1-A63A-164B7F83F6DC">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:15:59 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<constraintName>CK_ESTADO_ACT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="&apos;S&apos;, &apos;N&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_planta" id="F40A84CE-D0B6-220E-F0E0-77240084D4FE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:39:31 UTC</createdTime>
+<generatorID>CAE5AE5C-4A7C-CE76-A525-5CD06F0F2AD8</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>3AA7C490-2002-AC80-56D1-894B86A45A25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_maquina" id="F0C4A546-A067-7278-80BC-7F0A22E6D7A5">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:01:33 UTC</createdTime>
+<generatorID>C5C2080D-7C88-3825-3AF0-3C5AAE001BDC</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>230BEEBD-C42B-EC6C-8294-3E820913429C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="258BD83C-1F08-E448-561C-B245F102C377" name="MAQUINA PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:15:16 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3398BA0-5308-48FD-B3B6-DC20638F3300</attributeRef>
+<attributeRef>F40A84CE-D0B6-220E-F0E0-77240084D4FE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0738BD4C-29F2-04D0-5643-596ED1879621" name="UN_MAQUINA_TIPO_M_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:57:42 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>7259B3A8-5E64-D55C-E4E5-CFC1A71C23CA,F0C4A546-A067-7278-80BC-7F0A22E6D7A5</newElementsIDs>
+<usedAttributes>
+<attributeRef>7259B3A8-5E64-D55C-E4E5-CFC1A71C23CA</attributeRef>
+<attributeRef>F0C4A546-A067-7278-80BC-7F0A22E6D7A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

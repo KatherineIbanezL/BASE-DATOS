@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92224BD3-BEB0-B4D3-9170-F89C9CF8EF88" name="CERTIFICACION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>083D0875-0858-AA92-3E17-A62AABC068FC</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cert" id="9C4F62D8-81C5-F502-2D31-FF5ECB5892DA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>2DBA80AA-6893-3F7C-AFCD-9E387201F56E</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6E499BC4-B231-FD6D-EEC8-E4AA70CAAF9D">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>26B230C6-719E-C2CB-3780-97B00485D7B9</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="223FA14A-1A89-7B09-2004-C771E3F448FF">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>1EBBF21B-8EB8-53F0-827E-32B9F8F778C4</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2594ACBD-AE37-025E-FB80-122A6F60DD33" name="CERTIFICACION_PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>ED4149A3-1B99-0970-DBED-50572E8F65D9</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C4F62D8-81C5-F502-2D31-FF5ECB5892DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="761C596F-2198-DE45-5A5F-CF580BFA44B1" name="UN_CERT_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:41:08 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E499BC4-B231-FD6D-EEC8-E4AA70CAAF9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

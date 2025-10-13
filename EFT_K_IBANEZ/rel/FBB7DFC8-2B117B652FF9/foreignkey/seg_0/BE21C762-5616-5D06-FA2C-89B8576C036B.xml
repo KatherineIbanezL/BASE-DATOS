@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE21C762-5616-5D06-FA2C-89B8576C036B" containerWithKeyObject="E3F4B681-AF5A-9B6F-6977-50D16C790178" localFKIndex="49C6D4BF-F0C2-2B70-ACE2-A2AA6C5E677A" name="TEC_MANT_CERTIFICACION_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>45058492-258A-B7C8-B00A-C526F1AC8809</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<referredTableLongName>CERTIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92224BD3-BEB0-B4D3-9170-F89C9CF8EF88</referredTableID>
+<keyObject>2594ACBD-AE37-025E-FB80-122A6F60DD33</keyObject>
+<referredKeyID>2594ACBD-AE37-025E-FB80-122A6F60DD33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cert</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

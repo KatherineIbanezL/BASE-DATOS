@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="083D0875-0858-AA92-3E17-A62AABC068FC" name="CERTIFICACION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:00:27 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cert" id="2DBA80AA-6893-3F7C-AFCD-9E387201F56E">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:45:15 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="26B230C6-719E-C2CB-3780-97B00485D7B9">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:45:32 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="1EBBF21B-8EB8-53F0-827E-32B9F8F778C4">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:47:18 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED4149A3-1B99-0970-DBED-50572E8F65D9" name="CERTIFICACION PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:45:32 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DBA80AA-6893-3F7C-AFCD-9E387201F56E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C8AE3748-8E35-AF0E-969A-77860AF99894" name="UN_CERT_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>26B230C6-719E-C2CB-3780-97B00485D7B9</newElementsIDs>
+<usedAttributes>
+<attributeRef>26B230C6-719E-C2CB-3780-97B00485D7B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

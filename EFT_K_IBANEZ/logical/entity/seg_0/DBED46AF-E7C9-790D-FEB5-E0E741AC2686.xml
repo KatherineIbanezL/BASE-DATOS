@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBED46AF-E7C9-790D-FEB5-E0E741AC2686" name="PLANTA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 13:54:54 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_planta" id="3AA7C490-2002-AC80-56D1-894B86A45A25">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:19:22 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="895483E5-D6AC-0210-662C-3626697ECE1E">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:19:55 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="9B34E76B-054F-8DA0-8989-398A86AEDBE5">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:20:51 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="37BD07A4-AE22-B94A-5963-B3EA55182B40">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:31:10 UTC</createdTime>
+<generatorID>E2ECA0FA-91F8-20D0-627F-945A4E1B464B</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>6E394D83-AEF5-62AE-1FF7-E1EB6BA31378</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="768BDB86-355D-9613-4DF3-1B844D0901D8" name="PLANTA PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:19:54 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AA7C490-2002-AC80-56D1-894B86A45A25</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="830122D9-6049-4FE3-8B97-2EEBAC83BCF1" name="UN_PLANTA_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:57:18 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>895483E5-D6AC-0210-662C-3626697ECE1E</newElementsIDs>
+<usedAttributes>
+<attributeRef>895483E5-D6AC-0210-662C-3626697ECE1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

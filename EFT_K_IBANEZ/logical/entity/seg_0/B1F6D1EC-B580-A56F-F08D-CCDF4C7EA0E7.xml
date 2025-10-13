@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1F6D1EC-B580-A56F-F08D-CCDF4C7EA0E7" name="COMUNA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 13:53:55 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="6E394D83-AEF5-62AE-1FF7-E1EB6BA31378">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:16:22 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BFBC17DC-C970-A3D6-83EE-8E63A6D49CB4">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:16:39 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="B4B02058-5505-BA08-3D40-2F97EBEF37F2">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:30:36 UTC</createdTime>
+<generatorID>BCB7ED4D-8D95-16A6-773F-AD4E864593DC</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>26A9BBCB-C9DE-BAF7-0F5B-539A7DF7CEA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDD00CAE-AF86-CBDE-52F5-FE49007424C9" name="COMUNA PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:19:05 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E394D83-AEF5-62AE-1FF7-E1EB6BA31378</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D1A1D48C-69B8-459C-28B1-F3D160720338" name="UN_COMUNA_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:56:59 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>BFBC17DC-C970-A3D6-83EE-8E63A6D49CB4</newElementsIDs>
+<usedAttributes>
+<attributeRef>BFBC17DC-C970-A3D6-83EE-8E63A6D49CB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

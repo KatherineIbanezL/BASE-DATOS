@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3443C648-5C2C-38EC-E31D-F1C13425DA6D" name="ASIGNACION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>8E75CCCC-B416-4976-26C3-16F4F0EC6DD8</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignacion" id="DF992EC1-90D4-21B3-06CC-903E64C3C5E8">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>3EB81A17-3448-CA6B-D804-AB0513980B00</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="D4F35347-12D6-1B37-8FE8-24088855B540">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>C733F7E3-98F7-746D-1E22-2C8BB7C95E7C</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol_desemp" id="29F13A62-ED08-8449-3C8C-0A100658196C">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>8AF84DF7-A622-EAF3-8A7D-C1FDFA39A431</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_empleado" id="6AE86065-B5B1-46A8-E08B-23BC30E45A67">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>77F6BEC3-5CC4-6F16-C7B0-809561297CDC</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2624AD81-B1B8-7D9B-0091-615E3275489D" referredColumn="6D3C57D7-261E-4217-5883-0974DD0DCAA8"/>
+</associations>
+</Column>
+<Column name="num_maquina" id="7BF86D7E-DB3B-F5D8-4274-CE57FE898C6A">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>1D37DE93-02DE-D27E-D59A-8AB6FB88EB96</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF3F0860-8CD6-9863-0289-B8DD485E32C4" referredColumn="BBA9EA35-77A1-5965-7485-E988219A801C"/>
+</associations>
+</Column>
+<Column name="id_planta" id="DD270CD3-09E8-1318-4720-1468A8D39C0B">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>42A5966F-2DF6-155A-5E26-4D31C46971FD</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF3F0860-8CD6-9863-0289-B8DD485E32C4" referredColumn="D184E65F-B6C8-F37B-0B43-E572FB6665EC"/>
+</associations>
+</Column>
+<Column name="cod_jefe_turno" id="7FDFCD6D-88BE-18A3-9E68-100483DA6E54">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>D7102656-9360-3EA3-3E76-4C180F2A376E</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D8BD45F-6188-5AFC-96E0-33942284011F" referredColumn="158528F8-C0DA-AEE4-9845-CBDD887B68FB"/>
+</associations>
+</Column>
+<Column name="cod_turno" id="52D482AA-C00C-7F22-727B-4C53648EC6A9">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-09 18:37:47 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62F2633B-A065-F53B-D23F-D1988F38D59E" referredColumn="C092D306-2706-24F4-AE5F-2DD5112CAB91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97A4EDC1-1B4A-BBE1-07FE-D7098176F448" name="ASIGNACION_PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>A23EA3F0-3E50-E519-3800-3AA6313DBA54</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF992EC1-90D4-21B3-06CC-903E64C3C5E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECCBB8EA-0684-E75C-8CA9-A6F1129AFA07" name="UN_ASIG_EMP_FECHA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:24:55 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AE86065-B5B1-46A8-E08B-23BC30E45A67"/>
+<colUsage columnID="D4F35347-12D6-1B37-8FE8-24088855B540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19485FD7-9515-5C62-1119-F60B48072D62" name="ASIG_TURNO_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>01A287D5-389A-D4CE-62F2-8EF6B3204347</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D482AA-C00C-7F22-727B-4C53648EC6A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F140DA88-857C-3E5C-C8E8-BE1AAF396373" name="ASIG_MAQUINA_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>B683BBBA-905C-9F56-DF9A-BD4A9A763049</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF86D7E-DB3B-F5D8-4274-CE57FE898C6A"/>
+<colUsage columnID="DD270CD3-09E8-1318-4720-1468A8D39C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E5D47C3-BEA9-2630-4FC6-69A482BDBEAF" name="ASIG_EMPLEADO_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>FDBBA86B-04CA-AC7F-6F49-27124D624F1A</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AE86065-B5B1-46A8-E08B-23BC30E45A67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53F01A7E-870E-3E57-6A63-BB5C334FC836" name="ASIG_JEFE_TURNO_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>BD29AD7F-8352-E469-C8AF-DD346E48F7A9</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FDFCD6D-88BE-18A3-9E68-100483DA6E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

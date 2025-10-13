@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF3F0860-8CD6-9863-0289-B8DD485E32C4" containerWithKeyObject="3443C648-5C2C-38EC-E31D-F1C13425DA6D" localFKIndex="F140DA88-857C-3E5C-C8E8-BE1AAF396373" name="ASIG_MAQUINA_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>B683BBBA-905C-9F56-DF9A-BD4A9A763049</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<referredTableLongName>MAQUINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34261750-2C2F-8661-7CA3-BD39E1F63F07</referredTableID>
+<keyObject>9752BE78-534D-6ED4-96E6-C913954C9EFB</keyObject>
+<referredKeyID>9752BE78-534D-6ED4-96E6-C913954C9EFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_maquina,id_planta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

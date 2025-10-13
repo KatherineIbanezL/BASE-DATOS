@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO_EFT_K_IBANEZ" id="295DB751-B3BE-4A74-8B71-EDA85AC03D74" version="3.5">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 13:53:10 UTC</createdTime>
+<ownerDesignName>MR_EFT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>295DB751-B3BE-4A74-8B71-EDA85AC03D74</designId>
+</OSDM_Design>

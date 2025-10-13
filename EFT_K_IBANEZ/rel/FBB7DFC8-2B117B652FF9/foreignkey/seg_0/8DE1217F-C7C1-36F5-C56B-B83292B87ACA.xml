@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DE1217F-C7C1-36F5-C56B-B83292B87ACA" containerWithKeyObject="DBF16AF1-777B-B6EB-3561-0CE5F5C3EF2E" localFKIndex="6971699C-5688-82F4-309C-FB0A0B1A02AB" name="ORDEN_MANT_TEC_MANT_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>78224B8F-08D9-2C0F-3ACD-1EFE39D5F5EE</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<referredTableLongName>TECNICO_MANTENCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3F4B681-AF5A-9B6F-6977-50D16C790178</referredTableID>
+<keyObject>7DD6D598-EFDB-4D8E-1237-E42B8897EAC4</keyObject>
+<referredKeyID>7DD6D598-EFDB-4D8E-1237-E42B8897EAC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

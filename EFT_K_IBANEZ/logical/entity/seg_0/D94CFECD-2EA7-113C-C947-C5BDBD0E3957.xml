@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D94CFECD-2EA7-113C-C947-C5BDBD0E3957" name="TIPO_MAQUINA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:55:40 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_maquina" id="230BEEBD-C42B-EC6C-8294-3E820913429C">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:55:46 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C85B2983-F21F-0184-EA14-D851CE4D41B5">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:56:06 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A95A90E6-CA7A-CBDA-80FE-6B4059640C37" name="TIPO_MAQUINA PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:56:05 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>230BEEBD-C42B-EC6C-8294-3E820913429C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5A44367A-06F9-66BA-F0B8-2CC306464742" name="UN_TIPO_M_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-08 15:44:08 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>C85B2983-F21F-0184-EA14-D851CE4D41B5</newElementsIDs>
+<usedAttributes>
+<attributeRef>C85B2983-F21F-0184-EA14-D851CE4D41B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

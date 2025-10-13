@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FE70DA9-D290-2D28-6E18-76F13E872F58" name="REGION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 13:53:49 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="26A9BBCB-C9DE-BAF7-0F5B-539A7DF7CEA0">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:13:04 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DC8A3C51-044B-CE95-ED6D-00CEC13DC245">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:15:02 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8DDAA49-B072-BE09-F399-7AE7CE1F5824" name="REGION PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:14:59 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26A9BBCB-C9DE-BAF7-0F5B-539A7DF7CEA0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="640021AB-3AD4-DFAF-F90A-E878ED798EF7" name="UN_REGION_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:56:43 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>DC8A3C51-044B-CE95-ED6D-00CEC13DC245</newElementsIDs>
+<usedAttributes>
+<attributeRef>DC8A3C51-044B-CE95-ED6D-00CEC13DC245</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

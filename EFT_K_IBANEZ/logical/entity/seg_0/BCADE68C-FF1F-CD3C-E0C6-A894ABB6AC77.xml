@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCADE68C-FF1F-CD3C-E0C6-A894ABB6AC77" name="ORDEN_MANTENCION">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:04:29 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="665A5B40-2305-C282-280C-5933B5BBA61A">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 16:02:44 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_progr" id="2CC4AFCB-A46D-36B1-B37D-C20428E8C0D6">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:45:51 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ejec" id="8A281FDB-6A06-28F5-5AE5-A6CAA1ED9BF3">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:46:11 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<constraintName>CK_ESTADO_EJEC</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="&apos;En proceso&apos;, &apos;Realizada&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="968A075A-1486-139A-8C8F-738FE1C2D1AA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:46:49 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="4661FFB5-F2CE-3C8C-9D74-307B3A26B447">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:45:42 UTC</createdTime>
+<generatorID>78224B8F-08D9-2C0F-3ACD-1EFE39D5F5EE</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>E87CE5E4-181B-C515-A280-7F2871F0AB6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_maquina" id="022ADD92-0DCF-6E39-C760-A43F29854FF0">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:47:40 UTC</createdTime>
+<generatorID>A37F9296-300B-412F-74CA-36C99BC1479E</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>C3398BA0-5308-48FD-B3B6-DC20638F3300</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_planta" id="AAA6A537-7C27-42D5-DBF3-2CB5C828B178">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 18:48:36 UTC</createdTime>
+<generatorID>A37F9296-300B-412F-74CA-36C99BC1479E</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<referedAttribute>F40A84CE-D0B6-220E-F0E0-77240084D4FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9A732B7-8241-EA07-5285-BDE443BBF741" name="ORDEN_MANTENCION PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 16:02:58 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>665A5B40-2305-C282-280C-5933B5BBA61A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

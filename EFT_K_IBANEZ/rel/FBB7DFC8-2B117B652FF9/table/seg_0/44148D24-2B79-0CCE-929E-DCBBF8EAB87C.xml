@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44148D24-2B79-0CCE-929E-DCBBF8EAB87C" name="TIPO_MAQUINA">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:03:00 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_maquina" id="4F95D24C-3831-0BB0-5803-77E59F1D4F69">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:03:34 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1C9E1478-08AD-5D1D-36B1-21DC299378B8">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:03:34 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59AE012A-AA4C-E380-E080-36F0BDB4E739" name="TIPO_MAQUINA_PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 22:03:34 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F95D24C-3831-0BB0-5803-77E59F1D4F69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1CC0B3A-E5C5-2B8C-75E1-6FCF8200E566" name="UN_TIPO_M_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-08 15:46:41 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C9E1478-08AD-5D1D-36B1-21DC299378B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

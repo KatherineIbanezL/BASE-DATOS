@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="335E0A43-051C-7762-7D16-195ACED32C81" name="TURNO">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 14:03:52 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_turno" id="88ED411F-4A32-05F7-4DFB-16D60A0BBD85">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-09 18:34:08 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="21DDF8FF-E8CE-8EE0-7920-21A23106DCE7">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:44:30 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<constraintName>CK_NOMBRE_TURNO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="&apos;Mañana&apos;, &apos;Tarde&apos;, &apos;Noche&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_ini" id="A44755B5-D841-F652-1929-EA50D0134738">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:41:21 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_fin" id="369C196B-4034-4C80-2731-D27A3387DAE9">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:44:16 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D77613BA-720D-E4F5-C48D-0790A18F9DE2" name="TURNO PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 15:40:25 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88ED411F-4A32-05F7-4DFB-16D60A0BBD85</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EFA05435-E963-BBDD-798F-506AF663E0BB" name="UN_TURNO_NOMBRE">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-08 15:44:31 UTC</createdTime>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<engineerTo>
+<item key="FBB7DFC8-2C46-328D-01BE-2B117B652FF9" value="true"/>
+</engineerTo>
+<newElementsIDs>21DDF8FF-E8CE-8EE0-7920-21A23106DCE7</newElementsIDs>
+<usedAttributes>
+<attributeRef>21DDF8FF-E8CE-8EE0-7920-21A23106DCE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

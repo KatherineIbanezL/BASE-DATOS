@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DFD7EAA-DEBA-F0A5-A427-C7D56A579DE3" name="OPERARIO">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>AD00234F-4152-AB3A-E867-9F91E9110CAA</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="4D9E79DE-776E-2EC9-E817-DD79DC2718D0">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>E87CE5E4-181B-C515-A280-7F2871F0AB6B</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADECBEA3-840A-C300-B9BF-6878FC9A3398" referredColumn="6D3C57D7-261E-4217-5883-0974DD0DCAA8"/>
+</associations>
+</Column>
+<Column name="categoria_procs" id="812CC7B0-45C2-139C-74AA-1A46040CBE95">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>D2413AC4-14AA-2C31-CA81-B09D6E18E8B5</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_estandar" id="12977861-1C93-2B42-5B56-0CBB3CE17044">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>C1225A4B-6FBE-85D8-4B1C-F5C13B129E37</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<constraintName>CK_HORA_TURNO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="hora_estandar = 8"/>
+</checkConstraint>
+<defaultValue>8</defaultValue>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_certf" id="BB812EC8-EA6C-AB85-A93A-0137456B0F5B">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>427526FF-7C55-5E28-F67D-3A09D0FCB42C</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32783E87-8F66-B657-0C21-4158301A95C9" referredColumn="9C4F62D8-81C5-F502-2D31-FF5ECB5892DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F96928F7-E460-9E00-E785-F76018F43A31" name="OPERARIO_PK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>6303DAAC-B049-81BD-E5CF-27A7944924B1</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D9E79DE-776E-2EC9-E817-DD79DC2718D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF7FD426-25B4-E38F-D510-B6AE1DE757A3" name="OPERARIO_EMPLEADO_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>24EF7305-1A06-84F3-B93F-2B4E0E39A5F2</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D9E79DE-776E-2EC9-E817-DD79DC2718D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2851AEB3-5A84-1860-C2E5-5FD32FB375FE" name="OPERARIO_CERTIFICACION_FK">
+<createdBy>Katherine</createdBy>
+<createdTime>2025-10-07 21:08:19 UTC</createdTime>
+<generatorID>4078145C-FEEE-ECD2-B432-76E5BA4BCEF3</generatorID>
+<ownerDesignName>MODELO_EFT_K_IBANEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB812EC8-EA6C-AB85-A93A-0137456B0F5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
